@@ -6,15 +6,21 @@ The repository is part of the larger [Grimoire Programmatica](https://github.com
 
 I'm currently a Software Engineer working a lot with MySQL. These queries may not always follow best practices because these are meant to be notes.
 
-If things are launch correctly, all you should have to do to run the queries is log in to the mysql server:
+Once the devcontainer has launched, you should see the following message:
+
+```
+Please execute /workspaces/mysqlGrimoireWM/sakila-db/setup_sakila.sh to install the Sakila database.
+```
+
+Execute the suggested script to add [MySQL's Sakila Database](https://dev.mysql.com/doc/sakila/en/); the data the sample queries were written against.
+
+To execute the queries, you can execute the following command to log in to the mysql server:
 
 ```bash
 mysql -u root -p"example"
 ```
 
-## The data
-
-Right now the data I use is from [MySQL's Sakila Database](https://dev.mysql.com/doc/sakila/en/).
+You can also use the SQLTools extension. Settings for a connection to the local database already exist in `.vscode/settings.json`.
 
 ## The queries
 
