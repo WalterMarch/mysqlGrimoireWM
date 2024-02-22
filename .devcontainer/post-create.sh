@@ -2,4 +2,4 @@
 
 source $1/.devcontainer/configit.sh $1
 
-$1/sakila-db/setup_sakila.sh
+echo "Please execute /workspaces/mysqlGrimoireWM/sakila-db/setup_sakila.sh to install the Sakila database."
